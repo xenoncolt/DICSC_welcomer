@@ -100,4 +100,4 @@ module.exports = function (client) {
 
 
 
-//Coded by Xenon Colt | Shahriar Haque
+// coded by Xenon Colt | Shahriar Haque
