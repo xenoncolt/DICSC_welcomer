@@ -30,7 +30,7 @@ client.on("ready", () => {
 
         else 
         
-        client.user.setActivity(`since ${moment(client.user.createdTimestamp).format("HH:mm:ss")} ${moment(client.user.createdTimestamp).format("DD/MM/YYYY")}`, { type: "PLAYING" });
+        client.user.setActivity(`since ${moment(client.user.createdTimestamp).format("DD/MM/YYYY")}`, { type: "PLAYING" });
 
     }, (10*1000));
     //client.user.setActivity(`${client.guilds.cache.reduce((a, b) => a + b.memberCount, 0)} members`)
